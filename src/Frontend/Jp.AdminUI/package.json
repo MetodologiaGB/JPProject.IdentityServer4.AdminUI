@@ -10,6 +10,8 @@
     "start": "ng serve --port 4300",
     "build": "ng build --prod",
     "build-qa": "ng build --configuration=qa",
+    "build-hm": "ng build --configuration=hm",
+    "build-pr": "ng build --configuration=pr",
     "install-puppeteer": "cd node_modules/puppeteer && npm run install",
     "test": "npm run install-puppeteer && ng test",
     "lint": "ng lint",

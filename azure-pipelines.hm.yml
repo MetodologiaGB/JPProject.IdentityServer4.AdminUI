@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 trigger:
-  - pr
+  - hm
 
 variables:
   BuildConfiguration: "Release"
@@ -41,7 +41,7 @@ jobs:
         displayName: "NPM - Build Prod - AdminUI"
         inputs:
           command: custom
-          customCommand: "run build-pr"
+          customCommand: "run build-hm"
           workingDir: src/Frontend/Jp.AdminUI
 
       - task: ArchiveFiles@2
