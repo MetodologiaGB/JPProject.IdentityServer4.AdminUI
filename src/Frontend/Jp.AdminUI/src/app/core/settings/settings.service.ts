@@ -29,8 +29,8 @@ export class SettingsService {
         // App Settings
         // -----------------------------------
         this.app = {
-            name: "Jp Project - IS4Admin",
-            description: "IdentityServer4 Admin Panel",
+            name: "Metodologia Gustavo Borges - IS4Admin",
+            description: "Metodologia Gustavo Borges Admin Panel",
             year: ((new Date()).getFullYear()),
             version: environment.version
         };

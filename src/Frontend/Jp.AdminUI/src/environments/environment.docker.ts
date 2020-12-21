@@ -5,12 +5,12 @@
 
 export const environment = {
     production: false,
-    GoogleClientId: "",
-    FacebookClientId: "",
-    ResourceServer: "http://localhost:5002/",
-    IssuerUri:  "http://jpproject-sso:5001",
+    ResourceServer: "https://auth-api-sso-qa.metodologiagb.com.br/",
+    IssuerUri:  "https://auth-sso-qa.metodologiagb.com.br",
     RequireHttps: false,
     Uri: "http://localhost:4300",
-    defaultTheme: "C",
+    defaultTheme: "E",
     version: "3.0.3"
+    //defaultTheme: "C",
+    //version: "3.0.3"
   };

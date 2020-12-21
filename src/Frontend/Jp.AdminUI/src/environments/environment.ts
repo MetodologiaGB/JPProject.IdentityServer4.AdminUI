@@ -5,8 +5,8 @@
 
 export const environment = {
   production: false,
-  ResourceServer: "https://localhost:5002/",
-  IssuerUri:  "https://localhost:5000",
+  ResourceServer: "https://auth-api-sso-qa.metodologiagb.com.br/",
+  IssuerUri:  "https://auth-sso-qa.metodologiagb.com.br",
   RequireHttps: false,
   Uri: "http://localhost:4300",
   defaultTheme: "E",
